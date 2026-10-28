@@ -1,7 +1,16 @@
-# Clara Bismuth — Portfolio
+# Clara Bismuth — Portfolio (v3)
 
-Version de travail : accueil épuré, page About sans grand titre ni image basse, et pages projets avec galerie principale et miniatures verticales à droite.
+## Structure
+- `index.html`: homepage and project grid
+- `about.html`: About page
+- `projects/*.html`: individual project pages with 13 vertical thumbnails
+- `style.css`: all visual styles
+- `assets/main.js`: gallery thumbnail interaction
 
-Les images distantes sont des visuels provisoires. Remplacer par les assets autorisés avant publication finale.
+## Update content
+- Change homepage project order/cards in `index.html`.
+- Change each project title, brand, description, scope, and thumbnail list in `projects/<slug>.html`.
+- Replace each image URL in `src` and `data-full` with your own image URL. Keep `data-full` for the large image and `src` for the thumbnail.
+- Replace placeholder copy and contact links before public launch.
 
-Structure : `index.html`, `about.html`, `style.css`, `assets/main.js`, `projects/*.html`.
+The current imagery is provisional and loaded from Unsplash. Keep the `projects/` folder and `assets/` folder at the repository root.
