@@ -45,3 +45,19 @@
 .site-header nav {
   transform: translateY(4px);
 }
+/* Positionnement final du menu */
+.site-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  padding: 12px 3vw 0 !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+
+.site-header nav {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  transform: translateY(4px) !important;
+  justify-self: auto !important;
+}
