@@ -37,3 +37,8 @@
 }
 .header-contact { display: none !important; }
 .project-meta-line { display: none !important; }
+.site-header {
+  padding-top: 8px !important;
+  padding-right: 2.5vw !important;
+  padding-left: 0.6vw !important;
+}
