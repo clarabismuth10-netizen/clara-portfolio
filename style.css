@@ -270,3 +270,7 @@
 .project-main-image [class*="caption"] {
   display: none !important;
 }
+/* Masquer le footer global sur les pages projet */
+.project-page + .site-footer {
+  display: none !important;
+}
