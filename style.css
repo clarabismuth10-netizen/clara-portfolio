@@ -253,23 +253,3 @@
 .project-main-image [class*="caption"] {
   display: none !important;
 }
-.project-intro {
-    order: 2;
-  }
-
-  .project-main {
-    order: 3;
-  }
-
-  .project-thumbnails {
-    order: 4;
-  }
-
-  .project-description {
-    order: 5;
-  }
-
-  .project-nav {
-    order: 6;
-  }
-}
