@@ -231,3 +231,20 @@
 .main-label {
   display: none !important;
 }
+@media (min-width: 761px) {
+  .site-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-end !important;
+    padding: 0 3vw 8px !important;
+  }
+
+  .site-header nav {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    transform: none !important;
+  }
+}
+.project-main-image .main-label {
+  display: none !important;
+}
