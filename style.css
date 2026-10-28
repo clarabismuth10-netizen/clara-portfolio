@@ -61,3 +61,75 @@
   transform: translateY(4px) !important;
   justify-self: auto !important;
 }
+/* CORRECTIONS MOBILE */
+@media (max-width: 760px) {
+
+  /* En-tête : nom à gauche, navigation à droite */
+  .site-header {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 16px 5vw 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .site-header .wordmark {
+    grid-column: 1 !important;
+    justify-self: start !important;
+    white-space: nowrap;
+  }
+
+  .site-header nav {
+    grid-column: 2 !important;
+    justify-self: end !important;
+    margin: 0 !important;
+    white-space: nowrap;
+    transform: none !important;
+  }
+
+  /* Pages projets : une seule colonne */
+  .project-page {
+    padding: 32px 5vw !important;
+    min-height: 0 !important;
+  }
+
+  .project-layout {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 24px !important;
+    width: 100% !important;
+  }
+
+  .project-layout > * {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .project-layout img {
+    display: block;
+    max-width: 100% !important;
+    height: auto;
+  }
+
+  .project-thumbnails {
+    max-height: none !important;
+  }
+
+  /* Page About : contenu plus haut, sans fil d'Ariane */
+  .about-page {
+    padding: 32px 5vw !important;
+  }
+
+  .about-layout {
+    display: block !important;
+    max-width: 100% !important;
+  }
+
+  .about-page .micro {
+    display: none !important;
+  }
+
+}
