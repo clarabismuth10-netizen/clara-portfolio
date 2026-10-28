@@ -245,6 +245,11 @@
     transform: none !important;
   }
 }
-.project-main-image .main-label {
+.project-main-image .main-label,
+.project-main-image .tag,
+.project-main-image .micro,
+.project-main-image .project-meta-line,
+.project-main-image [class*="label"],
+.project-main-image [class*="caption"] {
   display: none !important;
 }
