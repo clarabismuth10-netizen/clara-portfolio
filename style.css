@@ -228,7 +228,7 @@
 }
 
 /* PAGES PROJETS : retirer le texte sur les images */
-.main-label {
+.image-label {
   display: none !important;
 }
 @media (min-width: 761px) {
