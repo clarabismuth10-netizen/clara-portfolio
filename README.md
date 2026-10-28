@@ -14,3 +14,8 @@
 - Replace placeholder copy and contact links before public launch.
 
 The current imagery is provisional and loaded from Unsplash. Keep the `projects/` folder and `assets/` folder at the repository root.
+
+## Latest structural changes (v4)
+- Header contact details removed from homepage, About, and project pages.
+- WORK / ABOUT navigation aligned to the far right.
+- Small project breadcrumb line removed from project pages.
