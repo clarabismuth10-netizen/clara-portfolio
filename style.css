@@ -274,3 +274,12 @@
 .project-page + .site-footer {
   display: none !important;
 }
+/* TYPOGRAPHIE : INTER */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html,
+body,
+body * {
+  font-family: 'Inter', sans-serif !important;
+  letter-spacing: 0 !important;
+}
