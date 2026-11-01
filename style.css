@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Sora:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=IBM+Plex+Mono:wght@300;400;500&family=Sora:wght@100..800&display=swap');
 :root{--paper:#fff;--ink:#111;--muted:#b8b8b8;--gutter:4.2vw;--header-h:36px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:12px/1.2 Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}.site-header{position:fixed;inset:0 0 auto;height:var(--header-h);padding:0 10px;display:grid;grid-template-columns:minmax(150px,1fr) auto minmax(150px,1fr);align-items:center;background:rgba(255,255,255,.96);z-index:20;font-size:12px;line-height:1.05}.wordmark{white-space:nowrap}.site-header nav{display:flex;justify-content:flex-end;align-items:center;gap:7px;justify-self:end;margin-right:2.5vw}.site-header nav a{padding:2px 4px}.site-header nav a:hover,.site-header nav a.active{outline:1px solid #111}.header-contact{display:flex;flex-direction:column;align-items:flex-end;justify-self:end;line-height:1.05;font-size:12px}.header-icons,.header-corner,.copyright{display:none!important}.home-grid{padding:58px var(--gutter) 70px;display:grid;grid-template-columns:1fr 1fr;column-gap:8.6vw;row-gap:95px;align-items:start}.project-card{display:block;min-width:0}.project-card:nth-child(2n){margin-top:150px}.project-card:nth-child(3n){margin-top:0}.project-image{position:relative;overflow:hidden;background:#e9e4db;aspect-ratio:.92}.project-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .5s}.project-card:hover .project-image img{transform:scale(1.025);filter:saturate(.9)}.project-image .tag{position:absolute;top:14px;left:14px;font:10px 'DM Mono',monospace;color:white;text-shadow:0 1px 8px #0007}.project-meta{display:flex;gap:12px;justify-content:space-between;padding-top:9px;font:9px/1.35 'DM Mono',monospace;text-transform:uppercase}.project-meta .desc{color:var(--muted)}.project-meta .role{white-space:nowrap}.site-footer{padding:18px 10px;display:flex;justify-content:space-between;border-top:1px solid #eee;font-size:10px}.micro{font:10px/1.4 'DM Mono',monospace;text-transform:uppercase}.about-page{padding:95px var(--gutter) 80px;min-height:100vh}.about-layout{display:grid;grid-template-columns:minmax(180px,.55fr) minmax(0,1fr);gap:10vw;max-width:1200px}.about-copy{max-width:700px;font-size:clamp(16px,1.45vw,22px);line-height:1.28}.about-copy p{margin:0 0 24px}.about-details{margin-top:70px;display:grid;grid-template-columns:1fr 1fr;gap:8vw}.about-details h2{font:10px 'DM Mono',monospace;text-transform:uppercase;border-top:1px solid;padding-top:9px;margin:0 0 14px}.about-details p{font-size:12px;line-height:1.55}.back-link{display:inline-block;margin-top:10px;font:10px 'DM Mono',monospace;text-transform:uppercase;border-bottom:1px solid;padding-bottom:4px}
 /* Project detail: large canvas at left, vertical gallery and project information on the right */
 .project-page{padding:58px var(--gutter) 50px;min-height:100vh}.project-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(280px,.75fr);gap:clamp(28px,5.5vw,95px);align-items:start}.project-main{min-width:0}.project-main-image{position:relative;width:100%;height:min(78vh,900px);background:#eee;overflow:hidden}.project-main-image img{width:100%;height:100%;display:block;object-fit:cover;transition:opacity .18s ease}.main-label{position:absolute;top:14px;left:14px;color:#fff;text-shadow:0 1px 8px #0008;font:10px 'DM Mono',monospace;text-transform:uppercase}.image-caption{display:flex;justify-content:space-between;gap:12px;padding-top:8px;font:9px/1.4 'DM Mono',monospace;text-transform:uppercase;color:#aaa}.project-side{position:sticky;top:52px;display:grid;grid-template-columns:minmax(0,1fr);gap:22px;min-width:0}.project-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.project-heading h1{font-size:clamp(34px,4.2vw,68px);font-weight:400;letter-spacing:-.075em;line-height:.9;margin:0}.project-intro{font-size:12px;line-height:1.35;max-width:440px;margin:0}.project-meta-line{font:9px/1.4 'DM Mono',monospace;text-transform:uppercase;color:#777;margin-top:12px}.project-thumbnails{display:flex;flex-direction:column;gap:9px;max-height:48vh;overflow-y:auto;padding-right:3px}.thumbnail{display:grid;grid-template-columns:88px 1fr;align-items:center;gap:10px;padding:0;border:0;background:transparent;text-align:left;cursor:pointer;opacity:.58;transition:opacity .2s}.thumbnail:hover,.thumbnail[aria-pressed="true"]{opacity:1}.thumbnail img{display:block;width:88px;height:64px;object-fit:cover;background:#eee}.thumbnail span{font:9px/1.35 'DM Mono',monospace;text-transform:uppercase}.project-description{border-top:1px solid #ddd;padding-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:14px}.project-description p{margin:0;font-size:11px;line-height:1.45}.project-description .micro{font-size:9px;color:#777}.project-nav{display:flex;justify-content:space-between;gap:15px;margin-top:30px;padding-top:12px;border-top:1px solid #ddd;font:10px 'DM Mono',monospace;text-transform:uppercase}.project-nav a:hover{text-decoration:underline}.project-page .site-footer{margin-top:60px}
@@ -285,4 +285,144 @@ body * {
 /* Titres : poids normal */
 .project-heading h1 {
   font-weight: 400 !important;
+}
+
+/* =================================
+   PROJECT PAGES — NOUVELLE TYPO
+================================= */
+
+/* TITRE PRINCIPAL : SORA */
+.project-heading h1 {
+  font-family: 'Sora', sans-serif !important;
+  font-size: clamp(26px, 2.1vw, 36px) !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  letter-spacing: -0.045em !important;
+  text-transform: lowercase;
+}
+
+/* TOUS LES SOUS-TEXTES : IBM PLEX MONO */
+.project-intro,
+.project-meta-line,
+.project-heading .brand-small,
+.thumbnail span,
+.image-caption,
+.main-label,
+.project-description p,
+.project-description .micro,
+.project-nav,
+.project-page .micro {
+  font-family: 'IBM Plex Mono', monospace !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0 !important;
+}
+
+/* DESCRIPTION SOUS LE TITRE */
+.project-intro {
+  font-size: 9px !important;
+  line-height: 1.4 !important;
+  max-width: 100% !important;
+  margin-top: 12px !important;
+}
+
+/* MINIATURES */
+.project-thumbnails {
+  max-height: none !important;
+  gap: 9px !important;
+}
+
+.thumbnail {
+  grid-template-columns: 96px minmax(0, 1fr) !important;
+  gap: 10px !important;
+}
+
+.thumbnail img {
+  width: 96px !important;
+  height: 68px !important;
+}
+
+.thumbnail span {
+  font-size: 8px !important;
+  line-height: 1.35 !important;
+}
+
+/* INFORMATIONS EN BAS DE COLONNE */
+.project-description {
+  grid-template-columns: 1fr !important;
+  gap: 12px !important;
+}
+
+.project-description p,
+.project-description .micro {
+  font-size: 8px !important;
+  line-height: 1.45 !important;
+}
+
+/* LÉGENDES SOUS L'IMAGE */
+.image-caption {
+  font-size: 8px !important;
+  line-height: 1.4 !important;
+}
+
+/* NAVIGATION */
+.project-nav {
+  font-size: 8px !important;
+}
+
+/* =================================
+   DESKTOP — PROPORTIONS
+================================= */
+
+@media (min-width: 761px) {
+
+  .project-page {
+    padding: 50px 4vw 40px !important;
+  }
+
+  .project-layout {
+    grid-template-columns: minmax(0, 2.2fr) minmax(330px, 1fr) !important;
+    gap: clamp(36px, 5vw, 82px) !important;
+  }
+
+  .project-main-image {
+    height: min(80vh, 900px) !important;
+  }
+
+  .project-side {
+    position: sticky;
+    top: 52px;
+    gap: 20px !important;
+  }
+
+  .project-thumbnails {
+    margin-top: 2px;
+  }
+}
+
+/* =================================
+   MOBILE — ADAPTATION
+================================= */
+
+@media (max-width: 760px) {
+
+  .project-heading h1 {
+    font-size: clamp(32px, 9vw, 42px) !important;
+  }
+
+  .project-intro {
+    font-size: 9px !important;
+  }
+
+  .thumbnail {
+    flex: 0 0 125px !important;
+  }
+
+  .thumbnail img {
+    width: 100% !important;
+    height: 85px !important;
+  }
+
+  .thumbnail span {
+    font-size: 8px !important;
+  }
 }
