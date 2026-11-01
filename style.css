@@ -428,4 +428,15 @@ body * {
 }
 .project-heading .brand-small {
   display: none !important;
+}/* ESPACEMENT TITRE / DESCRIPTION */
+.project-side {
+  gap: 12px !important;
+}
+
+.project-intro {
+  margin-top: 0 !important;
+}
+
+.project-heading {
+  margin-bottom: 0 !important;
 }
