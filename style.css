@@ -426,3 +426,6 @@ body * {
     font-size: 8px !important;
   }
 }
+.project-heading .brand-small {
+  display: none !important;
+}
