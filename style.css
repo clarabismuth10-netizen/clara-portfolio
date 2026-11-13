@@ -440,3 +440,18 @@ body * {
 .project-heading {
   margin-bottom: 0 !important;
 }
+
+/* Collagen Mania — preserve original image proportions */
+
+.project-main-image {
+  height: auto !important;
+  aspect-ratio: auto !important;
+  background: #fff;
+}
+
+.project-main-image img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 78vh;
+  object-fit: contain !important;
+}
